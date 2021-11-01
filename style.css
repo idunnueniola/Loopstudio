@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.head {
+  background-image: url("loopimages/image-hero.jpg");
+  /* height: 450px; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 450px;
+}
+.loop {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px;
+}
+.headerref {
+  margin-top: 50px;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  font-size: 10px;
+  justify-content: space-between;
+  
+}
+.headerref a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.loop1 {
+  margin-top: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.immersive {
+  position: absolute;
+  width: 400px;
+  left: 80px;
+  top: 250px;
+  bottom: 150px;
+  padding: 5px 20px 10px 30px;
+  border: 3px solid white;
+  font-size: 50px;
+  color: white;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  
+}
+.section2 img{
+    max-width: 500px;
+    margin-left: 70px;
+}
+.sec2{
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+.leader{
+    
+    margin-left: 450px;
+    color: black;
+    position: absolute;
+    background-color: white;
+    padding: 50px 10px 0px 20px;
+    height: 200px;
+    margin-top: 92px;
+    /* border: 3px solid whitesmoke; */
+    border: none;
+
+   
+}
+.leader h3{
+    width: 350px;
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.leader p{
+    width: 400px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.section3{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+}
+.sec3 h3{
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: "Open Sans", sans-serif;
+}
+.sec3 button{
+    width: 100px;
+    margin-right: 20px;
+    background-color: white;
+    border-width: 1px;
+    height: 30px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+}
+.grid img{
+    max-width: 260px;
+}
+.grid h3{
+    position: relative;
+    bottom: 110px;
+    left: 40px;
+    width: 85px;
+    font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
+    font-weight: lighter;
+
+}
+footer{
+    background-color: black;
+    padding-top: 50px;
+    
+}
+.sec4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    padding-bottom: 20px;
+    
+}
+.loopfooter h3{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-left: 6px;
+    
+}
+.loopfooter a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    line-height: 50px;
+    
+    
+}
+.icon p{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    padding: 4px;
+    line-height: 50px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
